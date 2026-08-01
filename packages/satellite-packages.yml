@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/warp-wasm
+name: Satellite Packages
+description: >-
+  First-party client library published by Satellite IM (Satellite-im) for
+  interfacing with Warp, the Rust distributed data service that backs the
+  Uplink decentralized chat application. No REST/GraphQL API is published;
+  the developer surface is a WebAssembly/TypeScript library.
+packages:
+- name: warp-wasm
+  registry: npm
+  url: https://www.npmjs.com/package/warp-wasm
+  language: TypeScript
+  description: Web Assembly TypeScript library for interfacing with Warp.
+  latest_version: 1.8.0
+  license: MIT
+  official: true
+  repository: https://github.com/Satellite-im/warp-wasm
+  homepage: https://github.com/Satellite-im/warp-wasm#readme
+  install: npm install warp-wasm

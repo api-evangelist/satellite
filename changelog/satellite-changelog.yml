@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/warp-wasm
+name: Satellite (warp-wasm) Changelog
+description: >-
+  Release history derived from the npm registry publish timeline of the
+  first-party warp-wasm library. Satellite does not publish a dated,
+  human-curated changelog; this tracks published package versions.
+scheme: semver
+current_version: 1.8.0
+package: warp-wasm
+registry: https://www.npmjs.com/package/warp-wasm
+entries:
+- version: 1.8.0
+  date: '2025-01-02'
+- version: 1.7.1
+  date: '2024-12-16'
+- version: 1.7.0
+  date: '2024-12-10'
+- version: 1.6.2
+  date: '2024-11-22'
+- version: 1.6.1
+  date: '2024-11-20'
+- version: 1.6.0
+  date: '2024-11-19'
+- version: 1.5.1
+  date: '2024-11-04'
+- version: 1.5.0
+  date: '2024-11-04'
+- version: 1.4.2
+  date: '2024-10-10'
+- version: 1.4.1
+  date: '2024-10-10'
+- version: 1.4.0
+  date: '2024-10-09'

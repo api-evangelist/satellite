@@ -1,8 +1,27 @@
 aid: satellite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/satellite.png
 name: Satellite
-description: 'Satellite is a company surfaced as a portfolio company of multicoin-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Satellite IM builds privacy-focused, decentralized peer-to-peer communication
+  software for crypto and web3 communities. Its core is Warp, a Rust
+  interface-driven distributed data service providing end-to-end-encrypted chat,
+  voice, video, and file sharing with data stored on IPFS. Uplink is a
+  customizable decentralized chat application built on top of Warp. Satellite
+  publishes no hosted REST or GraphQL API; the developer surface is the
+  open-source Warp Rust crates and the first-party warp-wasm WebAssembly and
+  TypeScript library. Satellite is backed by Multicoin Capital and its code is
+  MIT licensed.
 url: https://raw.githubusercontent.com/api-evangelist/satellite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Decentralized
+- Messaging
+- Communication
+- End-to-End Encryption
+- IPFS
+- Peer-to-Peer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://satellite.im
+- type: Documentation
+  url: https://warp.satellite.im/
+- type: GitHubOrganization
+  url: https://github.com/Satellite-im
+- type: SourceCode
+  url: https://github.com/Satellite-im/Warp
+- type: Packages
+  url: packages/satellite-packages.yml
+- type: SDKs
+  url: packages/satellite-packages.yml
+- type: ChangeLog
+  url: changelog/satellite-changelog.yml
+- type: LLMsTxt
+  url: llms/satellite-llms.txt
+- type: DomainSecurity
+  url: security/satellite-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
